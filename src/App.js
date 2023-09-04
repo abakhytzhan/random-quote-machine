@@ -20,7 +20,7 @@ const colors = [
 const duration = 1000;
 
 const fetchQuote = async () => {
-  let response = await fetch("http://api.quotable.io/random");
+  let response = await fetch("https://api.quotable.io/random");
   if (!response.ok) {
     throw new Error();
   } else {
