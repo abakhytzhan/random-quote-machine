@@ -77,7 +77,7 @@ function App() {
             <div ref={nodeRef} style={{ color }}>
               <div className="quote-text">
                 <i className="fa fa-quote-left"></i>
-                <span id="text">{quote.text}</span>
+                <span id="text"> {quote.text}</span>
               </div>
               <div className="quote-author" style={{ color }}>
                 - <span id="author">{quote.author}</span>
